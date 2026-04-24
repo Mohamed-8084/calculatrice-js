@@ -1,4 +1,4 @@
-function additionner(a, b) {
+function additionner(a, b,c) {
     return a + b
 }
 
@@ -26,7 +26,6 @@ function modulo(a, b) {
 console.log('10 % 3 =', modulo(10, 3));   // Attendu : 1
 console.log('15 % 4 =', modulo(15, 4));   // Attendu :
 
-<<<<<<< HEAD
 function racineCarree(n) {
 if (n < 0) {
 throw new Error('Impossible : racine carrée d un nombre négatif !');
