@@ -16,6 +16,15 @@ function division (a,b){
      return a/b
 }
 
+function puissance(base, exposant) { 
+return Math.pow(base, exposant); 
+// Ou : return base ** exposant;  (syntaxe moderne ES2016) 
+} 
+console.log('2^10 =', puissance(2, 10));     
+// Attendu : 1024 
+console.log('3^3 =', puissance(3, 3));        
+// Attendu : 27 
+
 console.log('5 + 3 =', additionner(5, 3));
 console.log('10 - 4 =', soustraire(10, 4));
 console.log('6 * 7 =', multiplier(6, 7));
